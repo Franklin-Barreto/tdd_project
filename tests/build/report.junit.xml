@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="phpunit_project" tests="16" assertions="29" errors="0" failures="0" skipped="0" time="0.121280">
+    <testsuite name="AnoBissextoTest" file="C:\xampp\htdocs\tdd_project\tests\AnoBissextoTest.php" tests="1" assertions="2" errors="0" failures="0" skipped="0" time="0.016125">
+      <testcase name="testEhBissexto" class="AnoBissextoTest" classname="AnoBissextoTest" file="C:\xampp\htdocs\tdd_project\tests\AnoBissextoTest.php" line="8" assertions="2" time="0.016125"/>
+    </testsuite>
+    <testsuite name="AvaliadorTest" file="C:\xampp\htdocs\tdd_project\tests\AvaliadorTest.php" tests="8" assertions="17" errors="0" failures="0" skipped="0" time="0.059610">
+      <testcase name="testAvalia" class="AvaliadorTest" classname="AvaliadorTest" file="C:\xampp\htdocs\tdd_project\tests\AvaliadorTest.php" line="60" assertions="2" time="0.011142"/>
+      <testcase name="testValorMedio" class="AvaliadorTest" classname="AvaliadorTest" file="C:\xampp\htdocs\tdd_project\tests\AvaliadorTest.php" line="78" assertions="1" time="0.003128"/>
+      <testcase name="testLeilaoUmLance" class="AvaliadorTest" classname="AvaliadorTest" file="C:\xampp\htdocs\tdd_project\tests\AvaliadorTest.php" line="84" assertions="2" time="0.004024"/>
+      <testcase name="testLeilaoOrdemAleatoria" class="AvaliadorTest" classname="AvaliadorTest" file="C:\xampp\htdocs\tdd_project\tests\AvaliadorTest.php" line="92" assertions="2" time="0.011679"/>
+      <testcase name="testLeilaoOrdemDescrecente" class="AvaliadorTest" classname="AvaliadorTest" file="C:\xampp\htdocs\tdd_project\tests\AvaliadorTest.php" line="108" assertions="2" time="0.006473"/>
+      <testcase name="testPegaOsTresMaiores" class="AvaliadorTest" classname="AvaliadorTest" file="C:\xampp\htdocs\tdd_project\tests\AvaliadorTest.php" line="121" assertions="4" time="0.012440"/>
+      <testcase name="testLeilaoDoisLances" class="AvaliadorTest" classname="AvaliadorTest" file="C:\xampp\htdocs\tdd_project\tests\AvaliadorTest.php" line="136" assertions="3" time="0.005254"/>
+      <testcase name="testLeilaoSemLances" class="AvaliadorTest" classname="AvaliadorTest" file="C:\xampp\htdocs\tdd_project\tests\AvaliadorTest.php" line="149" assertions="1" time="0.005470"/>
+    </testsuite>
+    <testsuite name="LanceTest" file="C:\xampp\htdocs\tdd_project\tests\LanceTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.003240">
+      <testcase name="testLanceIgualZero" class="LanceTest" classname="LanceTest" file="C:\xampp\htdocs\tdd_project\tests\LanceTest.php" line="13" assertions="1" time="0.003240"/>
+    </testsuite>
+    <testsuite name="LeilaoTest" file="C:\xampp\htdocs\tdd_project\tests\LeilaoTest.php" tests="6" assertions="9" errors="0" failures="0" skipped="0" time="0.042305">
+      <testcase name="testDeveReceberUmLance" class="LeilaoTest" classname="LeilaoTest" file="C:\xampp\htdocs\tdd_project\tests\LeilaoTest.php" line="53" assertions="1" time="0.003467"/>
+      <testcase name="testDeveReceberVariosLances" class="LeilaoTest" classname="LeilaoTest" file="C:\xampp\htdocs\tdd_project\tests\LeilaoTest.php" line="61" assertions="1" time="0.005146"/>
+      <testcase name="testNaoDeveAceitarDoisLancesSeguidosDoMesmoUsuario" class="LeilaoTest" classname="LeilaoTest" file="C:\xampp\htdocs\tdd_project\tests\LeilaoTest.php" line="71" assertions="2" time="0.004913"/>
+      <testcase name="testNaoDeveAceitarMaisDoQue5LancesDeUmMesmoUsuario" class="LeilaoTest" classname="LeilaoTest" file="C:\xampp\htdocs\tdd_project\tests\LeilaoTest.php" line="81" assertions="2" time="0.019596"/>
+      <testcase name="testDobraLanceUsuario" class="LeilaoTest" classname="LeilaoTest" file="C:\xampp\htdocs\tdd_project\tests\LeilaoTest.php" line="103" assertions="2" time="0.005402"/>
+      <testcase name="testNaoDeveDobrarCasoNaoHajaLanceAnterior" class="LeilaoTest" classname="LeilaoTest" file="C:\xampp\htdocs\tdd_project\tests\LeilaoTest.php" line="114" assertions="1" time="0.003782"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
